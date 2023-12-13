@@ -25,7 +25,7 @@ app.get('/', async (req, res) => {
 	});
 
     // Puppeteer will visit the URL and render the page.
-    await page.goto(`http://localhost:3000/render?location=${location}&expression=${expression}`, {
+    await page.goto(`https://myexampleasjdisads.onrender.com/render?location=${location}&expression=${expression}`, {
         waitUntil: 'networkidle0', // Wait until all resources are loaded.
     });
 
